@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="750c307f-fb24-4809-836d-62ea62c85103" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FazilovU7T3Lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayLists1Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayLists2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayLists3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Digits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DigitsTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CheckTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CustomerCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Digits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Digits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ArrayLists3">
+}</component>
+  <component name="RunManager" selected="Application.CheckTester">
     <configuration name="ArrayLists1Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayLists1Runner" />
       <module name="FazilovU7T3Lab" />
@@ -70,8 +63,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckTester" />
+      <module name="FazilovU7T3Lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DigitsTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DigitsTester" />
+      <module name="FazilovU7T3Lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckTester" />
+        <item itemvalue="Application.DigitsTester" />
         <item itemvalue="Application.ArrayLists3" />
         <item itemvalue="Application.ArrayLists2" />
         <item itemvalue="Application.ArrayLists1Runner" />

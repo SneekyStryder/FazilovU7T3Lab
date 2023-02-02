@@ -12,7 +12,15 @@ public class Digits
      */
     public Digits(int num)
     {
-        for (int i = 0; i < num)
+        digitList = new ArrayList<Integer>();
+        if (num == 0) {
+            digitList.add(0);
+        }
+
+        while (num > 0) {
+            digitList.add(0, num % 10);
+            num /= 10;
+        }
     }
 
     /** Returns true if the digits in this Digits object are in strictly increasing order;
@@ -20,7 +28,12 @@ public class Digits
      */
     public boolean isStrictlyIncreasing()
     {
-        /* to be implemented in part (b) */
+        for (int i = 0; i < digitList.size() - 1; i++) {
+            if (digitList.get(i) >= digitList.get(i + 1)) {
+                return false;
+            }
+        }
+        return true;
     }
 
     // GETTER METHOD: added to enable test code (not provided/needed in original FRQ)
